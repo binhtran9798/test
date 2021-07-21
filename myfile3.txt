@@ -1,3 +1,0 @@
-noi dung myfile3
-hello
-Hi
