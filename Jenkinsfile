@@ -3,15 +3,12 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                echo "Hello World!"
+                echo "This is main branch!"
             }
         }
     }
- }
-
-mypipeline{
-        environment {
-        EMAIL_TO = 'emaildehoc2019@gmail.com,binhtran9798@gmail.com'
+     environment {
+        EMAIL_TO = 'emaildehoc2019@gmail.com'
     }
 post {
         success {
@@ -35,4 +32,4 @@ post {
                     subject: 'Jenkins build is back to normal: $PROJECT_NAME - #$BUILD_NUMBER'
         }
     }
-}
+ }
