@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                echo "This is main branch!"
+                echo "This is newbranch1! This is newbranch1! This is newbranch1!"
             }
         }
     }
